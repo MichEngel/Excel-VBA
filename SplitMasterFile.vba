@@ -34,7 +34,7 @@ Range("A1:S" & LR).SpecialCells(xlCellTypeVisible).Select ‘Select the autofilt
 Selection.Copy
 
 ‘Location of where the new SUB WB will be located
-subwbpath = "C:\Users\mychel.PRIMESTAFF\PrimeStaff Management Services Pte Ltd\TAATs - General\VBA Split\SHS 1\"
+subwbpath = "C:\Users\VBA Split\SHS 1\" 'paste exact folder u will place the SUB WB
 subwbname = "*" & vfilter & "*_List.xlsx" ‘file name of new SUB WB
 
 If Dir(subwbpath & subwbname) = "" Then ‘check if a SUB WB exist
@@ -85,7 +85,7 @@ Range("A1:S" & LR).SpecialCells(xlCellTypeVisible).Select ‘Select the autofilt
 Selection.Copy
 
 ‘Location of where the new SUB WB will be located
-subwbpath = "C:\Users\mychel.PRIMESTAFF\PrimeStaff Management Services Pte Ltd\TAATs - General\VBA Split\NNA 1\"
+subwbpath = "C:\Users\VBA Split\NNA 1\" 'paste exact folder u will place the SUB WB
 subwbname = "*" & vfilter & "*_List.xlsx" ‘file name of new SUB WB
 
 If Dir(subwbpath & subwbname) = "" Then ‘check if a SUB WB exist
