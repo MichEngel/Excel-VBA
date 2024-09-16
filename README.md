@@ -1,3 +1,3 @@
 # Excel-VBA
-nonly macro codes
+only macro codes
 used for excel
